@@ -42,7 +42,7 @@
     }
   ],
   "styles": [
-    "simpltrack.icon=icon_air_conditioner"
+    "ptzoptics.icon=icon_air_conditioner"
   ],
   "rules":
   {
