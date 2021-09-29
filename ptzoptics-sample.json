@@ -2,11 +2,11 @@
   "adapters": [
     {
       "model": "GenericNetworkAdapter",
-      "ip": "tcp://192.168.15.155:5678",
+      "ip": "tcp://[IP ADDRESS]:5678",
       "ports": [
 	    {
-          "id": "simpltrack",
-          "name": "SimplTrack2",
+          "id": "ptzoptics",
+          "name": "PTZOptics Camera",
           "settings": {
             "baud_rate": "115200",
             "flow_control": "FLOW_NONE",
@@ -14,19 +14,24 @@
           },
           "methods": [
             {
-              "id": "tracking",
-              "name": "Tracking",
+              "id": "preset_call",
+              "name": "Call Preset",
               "command": "\\x81\\x01\\x04\\x3F\\x02%",
 			  "params": [
 			    {
-                  "id": "on",
-                  "name": "On",
-                  "value": "\\x50\\xFF"
+                  "id": "one",
+                  "name": "1",
+                  "value": "\\x01\\xFF"
                 },
 				{
-                  "id": "off",
-                  "name": "Off",
-                  "value": "\\x51\\xFF"
+                  "id": "two",
+                  "name": "2",
+                  "value": "\\x02\\xFF"
+                },
+                {
+                  "id": "three",
+                  "name": "3",
+                  "value": "\\x03\\xFF"
                 }
 				],
               "type": "actions"

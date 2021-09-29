@@ -2,11 +2,11 @@
   "adapters": [
     {
       "model": "GenericNetworkAdapter",
-      "ip": "tcp://192.168.15.155:5678",
+      "ip": "tcp://[IP ADDRESS]:5678",
       "ports": [
 	    {
-          "id": "simpltrack",
-          "name": "SimplTrack2",
+          "id": "huddleview",
+          "name": "HuddleView",
           "settings": {
             "baud_rate": "115200",
             "flow_control": "FLOW_NONE",
@@ -37,7 +37,7 @@
     }
   ],
   "styles": [
-    "simpltrack.icon=icon_air_conditioner"
+    "huddleview.icon=icon_air_conditioner"
   ],
   "rules":
   {
