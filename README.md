@@ -1,6 +1,6 @@
 # Zoom Room Control
 
-PTZOptics and HuddleCamHD Zoom Room configuration files
+PTZOptics and HuddleCamHD Zoom Room configuration files.
 
 These json files follow the instructions available here:
 https://support.zoom.us/hc/en-us/articles/360033716572-Room-Controls#h_01ENRKF3M7AADHE9G9G1XZCRWY
